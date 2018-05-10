@@ -5,6 +5,10 @@ double div(double a,double b){
 	return a/b;
 }
 
+double mod(double a,double b){
+    return a%b;
+}
+
 int main(){
     double a,b;
     cin>>a>>b;
@@ -16,15 +20,15 @@ int main(){
     cout<<sub(a,b)<<endl;
 
     cin>>a>>b;
-    cout<<"Mul result\n"
+    cout<<"Mul result\n";
     cout<<mul(a,b)<<endl;
     
     cin>>a>>b;
-    cout<<"Mod result\n"
+    cout<<"Mod result\n";
     cout<<mod(a,b)<<endl;
 
     cin>>a>>b;
-    cout<<"Div result\n"
+    cout<<"Div result\n";
     cout<<div(a,b)<<endl;
     return 0;
 }
