@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
-
+double sum(double a, double b){
+    double sum;
+    sum=a+b;
+    return sum;
+}
 int main(){
     double a,b;
     cin>>a>>b;
