@@ -1,10 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-double(int a,int b)
+double sub(int a,int b)
 {
 	return a-b;
 }
+
 int main(){
     double a,b;
     cin>>a>>b;
