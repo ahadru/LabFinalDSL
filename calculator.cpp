@@ -1,9 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-double sub(int a,int b)
-{
-	return a-b;
+double mul(double a,double b){
+	return a*b;
 }
 
 int main(){
