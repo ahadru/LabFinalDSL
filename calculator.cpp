@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+double mul(double a,double b){
+	return a*b;
+}
+
 int main(){
     double a,b;
     cin>>a>>b;
